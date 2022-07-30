@@ -267,3 +267,13 @@ let fruit2 = {nom: "pomme"};
 
 fruit == fruit2  // renvoie booleen false
 fruit === fruit2 // renvoie booleen false
+
+                                                    //NB METHODE GETOWNPROPERTYNAMES POUR TOUT RECUPERER toutes les keys DANS L OBJET 
+const object1 = {
+    a:1,
+    b:2,
+    c:3
+};
+
+console.log(Object.getOwnPropertyNames(object1));
+//expected output : array [a,b,c]
